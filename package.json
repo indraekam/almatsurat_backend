@@ -1,0 +1,29 @@
+{
+  "name": "almatsurat",
+  "version": "1.0.0",
+  "description": "Node Js Almatsurat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sequelize": "./node_modules/.bin/sequelize",
+    "start": "nodemon app/server.js"
+  },
+  "keywords": [
+    "almatsurat"
+  ],
+  "author": "insaid",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.15.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.3.0"
+  }
+}
